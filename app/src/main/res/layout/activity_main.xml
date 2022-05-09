@@ -26,7 +26,7 @@
                 android:padding="16dp"
                 android:text="Team A"
                 android:textAllCaps="true"
-                android:textColor="#616161"
+                android:textColor="?android:textColorSecondary"
                 android:textSize="18sp" />
 
             <TextView
@@ -37,7 +37,7 @@
                 android:gravity="center_horizontal"
                 android:paddingBottom="24dp"
                 android:text="0"
-                android:textColor="#000000"
+                android:textColor="?android:textColorPrimary"
                 android:textSize="60sp" />
 
             <Button
@@ -93,7 +93,7 @@
                 android:padding="16dp"
                 android:text="Team B"
                 android:textAllCaps="true"
-                android:textColor="#616161"
+                android:textColor="?android:textColorSecondary"
                 android:textSize="18sp" />
 
             <TextView
@@ -105,7 +105,7 @@
                 android:paddingBottom="24dp"
                 android:text="0"
                 android:textAllCaps="true"
-                android:textColor="#000000"
+                android:textColor="?android:textColorPrimary"
                 android:textSize="60sp" />
 
             <Button

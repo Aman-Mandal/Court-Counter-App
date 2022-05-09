@@ -1,16 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <!-- Base application theme. -->
-    <style name="Theme.CourtCounter" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+    <style name="Theme.CourtCounter" parent="Theme.AppCompat.DayNight">
+
+        <!-- Primary Theme color of the App -->
+        <item name="colorPrimary">#ff9800</item>
+
+        <!-- Background Color of the Buttons -->
+        <item name="colorButtonNormal">#ff9800</item>
+
+        <!-- Background color of the App-->
+        <item name="android:background">#1c1c1c</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">#999999</item>
+
     </style>
 </resources>

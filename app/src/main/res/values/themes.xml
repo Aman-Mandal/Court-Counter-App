@@ -9,6 +9,10 @@
         <!-- Background Color of the Buttons -->
         <item name="colorButtonNormal">#ff9800</item>
 
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">#616161</item>
+
     </style>
     
 </resources>
